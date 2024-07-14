@@ -1,4 +1,3 @@
-# Email Spam Classification:
 ## Purpose of the Model
 This model is prepared for the classification of emails as spam or not spam. The aim is to leverage transformer-based models to achieve high accuracy in detecting spam emails.
 

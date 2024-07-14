@@ -8,6 +8,7 @@ The model is built using the subclassing method in TensorFlow, providing flexibi
 
 ## Datasets:
 Used HuggingFace "Deysi/spam-detection-dataset" dataset for Fine tuninng Bert 
+
 ![Screenshot (105)](https://github.com/user-attachments/assets/f5a5974e-fe9d-46f9-a23c-ff1fae01c712)
 
 ## Dataset Sample:
@@ -21,11 +22,14 @@ The preprocessing of the dataset involves the following steps:
 
 Tokenization: The raw email text is tokenized using a pre-trained BERT tokenizer, which converts the text into tokens that the model can understand.
 Padding and Truncation: The tokenized sequences are padded or truncated to ensure they have the same length, which is necessary for batch processing.
+
 ![Screenshot (101)](https://github.com/user-attachments/assets/f37f5ebe-a002-4bd9-b922-eef23a4dba21)
 
 Encoding Labels: The labels (spam or not spam) are encoded into binary format, where 0 represents 'not spam' and 1 represents 'spam'.
+
 ![Screenshot (102)](https://github.com/user-attachments/assets/00365e0a-dd76-42d5-9ff1-99db0c21e2bc)
 
 ## Accuracy:
 The model achieved a remarkable accuracy of 99.99% on both the training dataset and the test dataset, demonstrating its efficacy in classifying emails as spam or not spam.
+
 ![Screenshot (103)](https://github.com/user-attachments/assets/3f3cf27d-2b2f-469b-a354-3f275caeb175)
